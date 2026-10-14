@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/wherestore-preview/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="오늘은 어디서 먹을까요? 내 주변 맛집을 찾고, 단골을 기록하고, 체험단까지.">
+
+  <!-- 링크 미리보기(카카오톡·페이스북). 크롤러는 절대 주소만 읽는다 — 배포 때 tools/stamp-web-meta.mjs 로 ./ 를 실제 주소로 바꾼다.
+       링크마다 다른 미리보기는 API 의 /s/... 페이지가 맡는다(packages/api/src/routes/share-pages.ts). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="어디가게">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="어디가게 · 취향으로 찾는 맛집">
+  <meta property="og:description" content="오늘은 어디서 먹을까요? 내 주변 맛집을 찾고, 단골을 기록하고, 체험단까지.">
+  <meta property="og:url" content="./">
+  <meta property="og:image" content="./og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="./og.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="어디가게">
+  <meta name="theme-color" content="#FFFBF3">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>어디가게 · 취향으로 찾는 맛집</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div id="loading" style="position:fixed;inset:0;display:grid;place-content:center;justify-items:center;background:#FFFBF3;font:14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#746B5F;text-align:center;gap:20px">
+    <img src="icons/Icon-192.png" alt="" width="72" height="72" style="border-radius:18px">
+    <strong style="font-size:19px;font-weight:800;letter-spacing:.02em;color:#2A2622">어디가게</strong>
+    <span style="font-size:11px;letter-spacing:.22em;color:#9A6700;margin-top:-12px">WHERESTORE</span>
+    <span>맛집 지도를 펼치고 있어요</span>
+  </div>
+  <script>window.addEventListener('flutter-first-frame', () => document.getElementById('loading')?.remove());</script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
