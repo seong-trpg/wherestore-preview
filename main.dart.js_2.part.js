@@ -1872,7 +1872,7 @@ w=new A.cj(x,A.o(x).i("cj<1,2>")).bY(0,new B.b94(a4))
 x=a4.a.e
 v=y.O
 u=y.p
-t=A.a([D.axm,C.aU,D.auZ,C.a9],u)
+t=A.a([D.axn,C.aU,D.auZ,C.a9],u)
 for(s=y.s,r=0;r<8;++r){q={}
 p=C.hd[r]
 q.a=null
@@ -2723,7 +2723,7 @@ o=y.O
 s=r.gt(s)>=w?h:new B.bdj(u,w,v)
 r=y.p
 s=A.a([A.aq(A.a([t,q,C.bJ,A.h3(D.Xo,new A.l("menu-photo-add-"+p,o),D.auK,s)],r),C.k,h,C.f,C.h,0,h),C.y],r)
-if(v.gt(0)===0)s.push(D.ay3)
+if(v.gt(0)===0)s.push(D.ay4)
 else{t=A.a([],r)
 for(x=A.Kw(v,0,x),q=J.bo(x.a),x=x.b,p=new A.o2(q,x);p.p();){n={}
 m=p.c
@@ -2880,11 +2880,11 @@ $3(d,e,f){var x,w,v,u,t,s,r,q,p,o=null,n=J.aC(y.j.a(y.f.a(e).h(0,"items")),y.P)
 if(n.gt(0)===0)return C.ae
 x=C.F.e1(0.45)
 w=y.p
-v=A.a([A.i("\ubc29\ubb38 \ud655\uc815 \ub4a4 \ucde8\uc18c \uc694\uccad "+J.b2(n.a)+"\uac74",o,o,o,o,C.bR,o,o,o),C.aU,D.axS],w)
+v=A.a([A.i("\ubc29\ubb38 \ud655\uc815 \ub4a4 \ucde8\uc18c \uc694\uccad "+J.b2(n.a)+"\uac74",o,o,o,o,C.bR,o,o,o),C.aU,D.axT],w)
 for(u=n.$ti,t=new A.a3(n,n.gt(0),u.i("a3<Y.E>")),s=y.O,r=this.a,u=u.i("Y.E");t.p();){q=t.d
 if(q==null)q=u.a(q)
 p=A.c(q.h(0,"id"))
-v.push(new B.e2(A.c(q.h(0,"placeName"))+" \xb7 "+A.c(q.h(0,"applicant")),"\ubc29\ubb38 "+A.dN(q.h(0,"visitAt"))+" \xb7 \uc694\uccad "+A.dN(q.h(0,"createdAt"))+"\n\uc0ac\uc720 \xb7 "+A.c(q.h(0,"reason")),C.aE,A.a([A.aX(D.awW,new A.l("cancel-approve-"+A.c(q.h(0,"id")),s),new B.aVz(r,q),o),A.aL(D.axO,new A.l("cancel-reject-"+A.c(q.h(0,"id")),s),new B.aVA(r,q),o)],w),o,new A.l("cancel-request-"+p,s)))}return new A.U(C.f8,new A.cS(A.G(v,C.j,o,C.f,C.h,0,C.i),C.q,x,D.aG_),o)},
+v.push(new B.e2(A.c(q.h(0,"placeName"))+" \xb7 "+A.c(q.h(0,"applicant")),"\ubc29\ubb38 "+A.dN(q.h(0,"visitAt"))+" \xb7 \uc694\uccad "+A.dN(q.h(0,"createdAt"))+"\n\uc0ac\uc720 \xb7 "+A.c(q.h(0,"reason")),C.aE,A.a([A.aX(D.awX,new A.l("cancel-approve-"+A.c(q.h(0,"id")),s),new B.aVz(r,q),o),A.aL(D.axP,new A.l("cancel-reject-"+A.c(q.h(0,"id")),s),new B.aVA(r,q),o)],w),o,new A.l("cancel-request-"+p,s)))}return new A.U(C.f8,new A.cS(A.G(v,C.j,o,C.f,C.h,0,C.i),C.q,x,D.aG_),o)},
 $S:254}
 B.aVz.prototype={
 $0(){return this.a.hO(this.b,"approve")},
@@ -3104,13 +3104,13 @@ D.avh=new A.q("\ube14\ub85c\uadf8\xb7SNS \ub4f1 \ub2e4\ub978 \uc0ac\ub78c\uc758 
 D.avG=new A.q("\ucd08\ub300 \uc54c\ub9bc \ubcf4\ub0b4\uae30",null,null,null,null,null,null,null,null,null)
 D.awb=new A.q("\uc774 \uc0ac\uc9c4\uc744 \ube84\uae4c\uc694?",null,null,null,null,null,null,null,null,null)
 D.awM=new A.q("\ucc3e\uae30",null,null,null,null,null,null,null,null,null)
-D.awW=new A.q("\ucde8\uc18c \uc2b9\uc778",null,null,null,null,null,null,null,null,null)
+D.awX=new A.q("\ucde8\uc18c \uc2b9\uc778",null,null,null,null,null,null,null,null,null)
 D.KW=new A.q("\ucd08\ub300 \ub9c1\ud06c",null,null,null,null,null,null,null,null,null)
 D.KX=new A.q("\uace0\uac1d \ud654\uba74\uc73c\ub85c",null,null,null,null,null,null,null,null,null)
-D.axm=new A.q("\uc544\uc774\uc640 \uac00\uae30",null,C.bv,null,null,null,null,null,null,null)
-D.axO=new A.q("\uac70\uc808",null,null,null,null,null,null,null,null,null)
-D.axS=new A.q("\ucc38\uc5ec\uc790\uac00 \uc0ac\uc720\uc640 \ud568\uaed8 \ucde8\uc18c\ub97c \uc694\uccad\ud588\uc5b4\uc694. \uc2b9\uc778\ud558\uba74 \ucc38\uc5ec\uac00 \ucde8\uc18c\ub418\uace0 \uc790\ub9ac\uac00 \ube44\uc5b4\uc694. \uc77c\uc815 \uc870\uc815\uc774 \uac00\ub2a5\ud558\uba74 \uac70\uc808\ud558\uace0 \uc774\uc720\ub97c \uc801\uc5b4 \uc8fc\uc138\uc694.",null,C.j1,null,null,null,null,null,null,null)
-D.ay3=new A.q("\uc544\uc9c1 \uc62c\ub9b0 \uc0ac\uc9c4\uc774 \uc5c6\uc5b4\uc694. \uc0ac\uc9c4\uc774 \uc5c6\uc73c\uba74 \uc190\ub2d8 \ud654\uba74\uc5d0 '\uc0ac\uc9c4 \uc900\ube44 \uc911' \uc790\ub9ac\uac00 \ubcf4\uc774\uace0, \uc2b9\uc778\ub41c \ud68c\uc6d0 \uc18c\uac1c \uc0ac\uc9c4\uc774 \uc788\uc73c\uba74 \uadf8 \uc0ac\uc9c4\uc774 \ub300\uc2e0 \ub098\uc640\uc694.",null,C.bo,null,null,null,null,null,null,null)
+D.axn=new A.q("\uc544\uc774\uc640 \uac00\uae30",null,C.bv,null,null,null,null,null,null,null)
+D.axP=new A.q("\uac70\uc808",null,null,null,null,null,null,null,null,null)
+D.axT=new A.q("\ucc38\uc5ec\uc790\uac00 \uc0ac\uc720\uc640 \ud568\uaed8 \ucde8\uc18c\ub97c \uc694\uccad\ud588\uc5b4\uc694. \uc2b9\uc778\ud558\uba74 \ucc38\uc5ec\uac00 \ucde8\uc18c\ub418\uace0 \uc790\ub9ac\uac00 \ube44\uc5b4\uc694. \uc77c\uc815 \uc870\uc815\uc774 \uac00\ub2a5\ud558\uba74 \uac70\uc808\ud558\uace0 \uc774\uc720\ub97c \uc801\uc5b4 \uc8fc\uc138\uc694.",null,C.j1,null,null,null,null,null,null,null)
+D.ay4=new A.q("\uc544\uc9c1 \uc62c\ub9b0 \uc0ac\uc9c4\uc774 \uc5c6\uc5b4\uc694. \uc0ac\uc9c4\uc774 \uc5c6\uc73c\uba74 \uc190\ub2d8 \ud654\uba74\uc5d0 '\uc0ac\uc9c4 \uc900\ube44 \uc911' \uc790\ub9ac\uac00 \ubcf4\uc774\uace0, \uc2b9\uc778\ub41c \ud68c\uc6d0 \uc18c\uac1c \uc0ac\uc9c4\uc774 \uc788\uc73c\uba74 \uadf8 \uc0ac\uc9c4\uc774 \ub300\uc2e0 \ub098\uc640\uc694.",null,C.bo,null,null,null,null,null,null,null)
 D.L0=new A.q("\ubc29\ubb38\xb7\ub9ac\ubdf0 \ud604\ud669",null,null,null,null,null,null,null,null,null)
 D.ayu=new A.q("\uc54c\ub9bc \ubcf4\ub0b4\uae30",null,null,null,null,null,null,null,null,null)
 D.ayI=new A.q("\ub9c1\ud06c \ub9cc\ub4e4\uae30",null,null,null,null,null,null,null,null,null)
@@ -3146,4 +3146,4 @@ D.aGH=new A.l("menu-photo-own",y.O)
 D.aGZ=new A.z3(15,null)
 D.aH_=new A.z3(16,null)})();(function staticFields(){$.aCS=null
 $.bC1=null})()};
-(a=>{a["JnY+cRf7NMNQlXQnVb4J4ZOL7/0="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["HMD0gGvUb4ixRb6ygqQlUFSl41w="]=a.current})($__dart_deferred_initializers__);
